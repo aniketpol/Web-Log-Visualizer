@@ -203,26 +203,7 @@ def hbydate(filename,itemname):
 
     p.show()
 
-    '''plt.bar(range(len(count)),count,align="center",width=0.5,alpha=0.5)
-    plt.ylabel('WWW.TWIBUZZ.COM')
-    plt.xlabel('No of Hits')
-    plt.set_xticklabels(count)
-    def autolabel(rects):
-     for rect in rects:
-        height = rect
-        plt.text(1.05*height, '%d'%int(height),
-                ha='center', va='bottom')
-
-
-
-    plt.show()
-
-    figure(1, figsize=(6,6))
-    ax = axes([0.1, 0.1, 0.8, 0.8])
-
-    #explode=(1, 0.05, 1)
-    pie(count, labels=req_data,autopct='%1.1f%%', shadow=True, startangle=90)
-    title('Type of Request to www.kinneryandrajan.com', bbox={'facecolor':'0.8', 'pad':5})'''
+    
 
     show()
     pass
@@ -313,28 +294,7 @@ def hitsperwebsite(filename):
 
     p.show()
 
-    '''plt.bar(range(len(count)),count,align="center",width=0.5,alpha=0.5)
-    plt.ylabel('WWW.TWIBUZZ.COM')
-    plt.xlabel('No of Hits')
-    plt.set_xticklabels(count)
-    def autolabel(rects):
-     for rect in rects:
-        height = rect
-        plt.text(1.05*height, '%d'%int(height),
-                ha='center', va='bottom')
-
-
-
-    plt.show()
-
-    figure(1, figsize=(6,6))
-    ax = axes([0.1, 0.1, 0.8, 0.8])
-
-    #explode=(1, 0.05, 1)
-    pie(count, labels=req_data,autopct='%1.1f%%', shadow=True, startangle=90)
-    title('Overall No of Hits', bbox={'facecolor':'0.8', 'pad':5})
-
-    show()'''
+    
     pass
 
 
@@ -425,28 +385,7 @@ def browserhits(filename,itemname):
 
     p.show()
 
-    '''plt.bar(range(len(count)),count,align="center",width=0.5,alpha=0.5)
-    plt.ylabel('WWW.TWIBUZZ.COM')
-    plt.xlabel('No of Hits')
-    plt.set_xticklabels(count)
-    def autolabel(rects):
-     for rect in rects:
-        height = rect
-        plt.text(1.05*height, '%d'%int(height),
-                ha='center', va='bottom')
-
-
-
-    plt.show()
-
-    figure(1, figsize=(6,6))
-    ax = axes([0.1, 0.1, 0.8, 0.8])
-
-    #explode=(1, 0.05, 1)
-    pie(count, labels=req_newdata,autopct='%1.1f%%', shadow=True, startangle=90)
-    title('Type of Request to www.kinneryandrajan.com', bbox={'facecolor':'0.8', 'pad':5})
-
-    show()'''
+   
 
     pass
 
@@ -540,30 +479,7 @@ def iphits(filename,websitename):
 
     p.show()
 
-    '''plt.bar(range(len(count)),count,align="center",width=0.5,alpha=0.5)
-    plt.ylabel('WWW.TWIBUZZ.COM')
-    plt.xlabel('No of Hits')
-    plt.set_xticklabels(count)
-    def autolabel(rects):
-     for rect in rects:
-        height = rect
-        plt.text(1.05*height, '%d'%int(height),
-                ha='center', va='bottom')
-
-
-    #autolabel(count)
-    #plt.legend()
-    plt.show()'''
-
-    '''this is for pie chart
-    #labels = 'Frogs', 'Hogs', 'Dogs', 'Logs'
-    #fracs = [15, 30, 45, 10]
-    explode=(1, 0.05, 1, 1)
-    pie(count, explode=explode, labels=ipdata,
-     autopct='%1.1f%%', shadow=True, startangle=90)
-    #title('Raining Hogs and Dogs', bbox={'facecolor':'0.8', 'pad':5}
-
-    show()'''
+  
     pass
 
 
